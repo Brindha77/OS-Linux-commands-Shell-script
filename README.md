@@ -28,18 +28,21 @@ cd exp
 cat>f1
 ```
 ### OUTPUT :
+![1](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/ccb4e2bc-0ebc-473e-8f12-d94d15c0144d)
 
 ### MORE :
 ```
 cat f1|more
 ```
 ### OUTPUT :
+![2](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/5cce0628-b80c-42bf-af32-60e79ab2bab5)
 
 ### DISPLAY :
 ```
 ls
 ```
 ### OUTPUT :
+![3](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/3d010db7-32bb-473f-8cce-1704d12053c2)
 
 
 ### LESS :
@@ -47,18 +50,21 @@ ls
 cat f1|less
 ```
 ### OUTPUT :
+![4](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/18e9313b-affd-41f1-bbee-84bf41457bbc)
 
 ### TAIL :
 ```
 tail f1
 ```
 ### OUTPUT :
+![5](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/b5a85dd6-a9bf-4eb0-a3d1-2a5ada68c11a)
 
 ### HEAD :
 ```
 head f1
 ```
 ### OUTPUT :
+![6](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/29592625-815c-4c4c-82d8-fc8d6f8d6edc)
 
 
 ### SORT :
@@ -66,6 +72,7 @@ head f1
 sort f5
 ```
 ### OUTPUT :
+![7](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/bafde508-4dfd-4013-8b41-c5707945b73a)
 
 
 ### UNIQ :
@@ -73,6 +80,7 @@ sort f5
 uniq f5
 ```
 ### OUTPUT :
+![8](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/488f1011-43b4-456d-9f76-8ade2a1c6d04)
 
 
 ### SORT & UNIQ :
@@ -80,12 +88,14 @@ uniq f5
 sort f5 | uniq
 ```
 ### OUTPUT :
+![9](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/26fa471e-b9be-4ca5-8fcf-086ae37c86b5)
 
 ### awk :
 ```
 cat f6 |awk '{print $1}'
 ```
 ### OUTPUT :
+![10](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/e28852e7-d18e-48c3-a8a6-fe95ad207484)
 
 
 ### DISPLAY ALL :
@@ -93,6 +103,7 @@ cat f6 |awk '{print $1}'
 ls -l
 ```
 ### OUTPUT :
+![11](https://github.com/Brindha77/OS-Linux-commands-Shell-script/assets/118889143/f940be79-8518-44e3-8448-a29f43002292)
 
 
 ### SORT.OUT :
