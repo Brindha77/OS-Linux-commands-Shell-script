@@ -3,10 +3,10 @@ Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
-# AIM:
+## AIM:
 To practice Linux Commands and Shell Scripting
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 
 ### Step 1:
 
@@ -20,167 +20,167 @@ Execute the following commands
 
 Testing the commands for the desired output. 
 
-# COMMANDS:
+## COMMANDS:
 ### Create the following files file1, file2 as follows:
 ```
 mkdir exp
 cd exp
 cat>f1
 ```
-# OUTPUT :
+### OUTPUT :
 
-# MORE :
+### MORE :
 ```
 cat f1|more
 ```
-# OUTPUT :
+### OUTPUT :
 
-# DISPLAY :
+### DISPLAY :
 ```
 ls
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# LESS :
+### LESS :
 ```
 cat f1|less
 ```
-# OUTPUT :
+### OUTPUT :
 
-# TAIL :
+### TAIL :
 ```
 tail f1
 ```
-# OUTPUT :
+### OUTPUT :
 
-# HEAD :
+### HEAD :
 ```
 head f1
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# SORT :
+### SORT :
 ```
 sort f5
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# UNIQ :
+### UNIQ :
 ```
 uniq f5
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# SORT & UNIQ :
+### SORT & UNIQ :
 ```
 sort f5 | uniq
 ```
-# OUTPUT :
+### OUTPUT :
 
-# awk :
+### awk :
 ```
 cat f6 |awk '{print $1}'
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# DISPLAY ALL :
+### DISPLAY ALL :
 ```
 ls -l
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# SORT.OUT :
+### SORT.OUT :
 ```
 ps | sort>f1sort.out
 ```
-# OUTPUT :
+### OUTPUT :
 
-# F1.OUT :
+### F1.OUT :
 ```
 ps | sort > f1.out
 ```
-# OUTPUT :
+### OUTPUT :
 
-# SORT - FILE.OUT :
+### SORT - FILE.OUT :
 ```
 ps | sort > saveetha.out
 ls
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# FILE.OUT :
+### FILE.OUT :
 ```
 cat saveetha.out
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# ECHO :
+### ECHO :
 ```
 echo Saveetha Engineering College >> f3
 cat f3
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# STOP :
+### STOP :
 ```
 cat<<stop>here.check.txt
 ```
-# OUTPUT :
+### OUTPUT :
 
-# START :
+### START :
 ```
 cat<<start>f5
 ```
-# OUTPUT :
+### OUTPUT :
 
-# VALUE :
+### VALUE :
 ```
 x=7
 echo $ x
 ```
-# OUTPUT :
+### OUTPUT :
 
-# DECLARE :
+### DECLARE :
 ```
 declare x=7
 let y=4
 set z=6
 echo $x $y $z
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# EXPORT :
+### EXPORT :
 ```
 export z
 echo $x $y $z
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# ADD VALUE :
+### ADD VALUE :
 ```
 expr $x+$y
 ```
-# OUTPUT :
+### OUTPUT :
 
 
-# MULTIPLY VALUE :
+### MULTIPLY VALUE :
 ```
 expr $x\*$y
 ```
-# OUTPUT :
+### OUTPUT :
 
 
 
-# RESULT:
+## RESULT:
 The Commands are executed successfully.
